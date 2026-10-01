@@ -1,10 +1,10 @@
 #Greenfoot project file
-class.Pizza.image=Pizza.png
-class.Topping.image=Mushrooms.png
+class.Pizza.image=pizza_cheese.png
+class.Topping.image=Olive.png
 editor.fx.0.height=737
 editor.fx.0.width=814
-editor.fx.0.x=32
-editor.fx.0.y=116
+editor.fx.0.x=0
+editor.fx.0.y=36
 height=990
 package.numDependencies=0
 package.numTargets=3
@@ -21,7 +21,7 @@ readme.name=@README
 readme.width=48
 readme.x=10
 readme.y=10
-simulation.speed=52
+simulation.speed=50
 target1.height=70
 target1.name=Pizza
 target1.showInterface=false
