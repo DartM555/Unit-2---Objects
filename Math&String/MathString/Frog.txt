@@ -3,7 +3,7 @@ FrogSimulation
 -goalDistance: int
 -maxHops: int
 ----------------------------------------------
-FrogSimulation(dist: int, numHops: int)
++ FrogSimulation(dist: int, numHops: int)
 +simulate(): boolean
 +runSimulations(num: int): double
 -hopDistance(): int

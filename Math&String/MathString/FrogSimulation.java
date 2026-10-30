@@ -14,14 +14,28 @@ public class FrogSimulation {
         if (Math.random()>0.9){
             hop=-hop;
         }
-        return hop;  
+        return hop;   
     }
     public boolean simulate(){
         boolean result=false;
-        while (hopDistance()<=25){
+        int start = 0;
+        for (int i=0; i<maxHops; i++){
+            start = start+hopDistance();
+            if(start<0){
+                return false;
+            }
             
         }
-        return result;
+
+        return start>goalDistance;
+    }
+
+    public double runSimulation(int num){
+        double count = 0;
+
+
+        
+        return count/num;
     }
 }
 
